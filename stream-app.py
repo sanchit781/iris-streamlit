@@ -11,7 +11,7 @@ from sklearn.neighbors import KNeighborsClassifier
 model = open("Knn_Classifier.pkl", "rb")
 knn_clf = joblib.load(model)
 
-st.title("Iris Classification App")
+st.title("Sanchit's Iris Classification App")
 
 ## Loading Images
 setosa= Image.open('setosa.jpeg')
